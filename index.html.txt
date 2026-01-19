@@ -1,0 +1,84 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Floyd Carlo - Portfolio</title>
+    <style>
+        /* Reset some default styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: #4a90e2;
+        }
+        h2 {
+            font-size: 1.5rem;
+            color: #888;
+            margin-bottom: 1.5rem;
+        }
+        p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.8;
+        }
+        .btn {
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 5px;
+            margin-top: 2rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #357ab7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Floyd Carlo</h1>
+        <h2>IT - T.E. Student</h2>
+        <p>
+            I am an aspiring IT professional with a passion for technology and development. Currently pursuing my 
+            third year in Information Technology, I am gaining hands-on experience in various areas of software 
+            development, coding, and problem-solving. I strive to improve my skills continuously and work on exciting 
+            projects that enhance my knowledge.
+        </p>
+        <button class="btn" onclick="showAlert()">Contact Me</button>
+    </div>
+
+    <script>
+        function showAlert() {
+            alert('Feel free to reach out to me at: floyd.carlo@example.com');
+        }
+    </script>
+</body>
+</html>
